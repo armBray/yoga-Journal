@@ -1,0 +1,55 @@
+
+/* =================
+    Header - inhert from index
+   ================= */
+
+/* =================
+    hero-post - inhert from index/post
+   ================= */
+
+.hero-post .intro img {
+    width: 150px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+.hero-post .intro h1 {
+    font-size: 2.1rem ; /*34px*/
+}
+
+
+/* =================
+    article-listing - inhert from index/post
+   ================= */
+
+
+/* =================
+    footer - inhert from index
+   ================= */
+
+@media (min-width: 414px){
+
+    .intro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .intro img {
+        height: fit-content;
+    }
+
+    .hero-post .intro :not(img) {
+        padding: 0 1rem;
+    }
+
+    .hero-post .paragraph h3{
+        margin: 0 auto;
+    }
+    
+    .hero-post .paragraph p {
+        font-size: 1.25rem ; /*20px*/
+        margin: 0 auto;
+    }
+}
+
+
+

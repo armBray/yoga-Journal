@@ -1,0 +1,89 @@
+
+/* =================
+    Header - inhert from index
+   ================= */
+
+/* =================
+    hero-post - inhert from index
+   ================= */
+.hero-post{
+    padding: 2em 1em;
+    background-color: #FAFAFA;
+    background-image: none;
+    color: #151515;
+}
+
+.hero-post img {
+    width: 100%;
+    margin: 1em 0;
+}
+
+.hero-post .paragraph *{
+    padding: 0.5em 0;
+}
+
+/* =================
+    article-listing - inhert from index
+   ================= */
+.article-listing {
+    padding-top: 0;
+    grid-template-rows: auto repeat(3,minmax(50px,1fr));
+}
+
+.article-listing > span {
+    display: inline;
+    text-decoration: none;
+
+    font-weight: 700;
+    font-size: 1rem ; /*16px*/
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* =================
+    footer - inhert from index
+   ================= */
+
+@media (min-width: 414px){
+
+
+    .hero-post {
+        padding: 4rem 2rem;
+    }
+
+    .hero-post :not(img) {
+        padding: 0 3rem;
+    }
+
+    .hero-post span {
+        font-size: 1rem ; /*16px*/
+    }
+    
+    .hero-post h1 {
+        font-size: 2.5rem ; /*36px*/
+    }
+    
+    .hero-post p {
+        font-size: 1rem ; /*16px*/
+        max-width: 100%;
+    }
+
+    .hero-post h3 {
+        font-size: 1.5rem ; /*24px*/
+    }
+
+    .article-listing {
+        grid-template-rows: auto auto;
+        padding-top: 0;
+    }
+
+    .article-listing > span {
+        font-size: 1.5rem ; /*24px*/
+        grid-column: 1/-1;
+    }
+}
+
+
+

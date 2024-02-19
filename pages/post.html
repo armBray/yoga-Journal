@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <title>Post page</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/post.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../assets/logo.svg" alt="logo">
+            <h1>My Yoga journal</h1>
+        </div>
+        <ul id="menu-screen">
+            <li><a href="../index.html">home</a></li>
+            <li><a href="./about-me.html">about me</a></li>
+        </ul>
+        <div id="menu-mobile">
+            <img src="../assets/menu-hamburger.svg" alt="menu-hamburger" id="menu-hamburger" class="menu-hamburger">
+            <img src="../assets/menu-strawberry.svg" alt="menu-strawberry" id="menu-strawberry" class="menu-strawberry">
+        </div>
+        <menu id="menu-mobile-list" class="menu-mobile-list div-header">
+            <ul>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="./about-me.html">about me</a></li>
+            </ul>
+        </menu>
+    </header>
+    <section class="hero-post" id="hero-post-article">
+        <!-- post.js injection -->
+    </section>
+
+    <section class="article-listing" id="article-listing">
+        <span id="article-listing-recent">Recent posts</span>
+        <!-- post.js injection -->
+    </section>
+    <footer>
+        <h1>My Yoga Journal</h1>
+        <h3>Copyright ©<span id="copyright-year"></span></h3>
+    </footer>
+    <script type="module" src="../js/post.js"></script>
+</body>
+
+</html>

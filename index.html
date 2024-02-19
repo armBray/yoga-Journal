@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <title>My Yoga Journal</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <!-- <a href="./index.html"> -->
+            <img src="./assets/logo.svg" alt="logo">
+            <h1>My Yoga journal</h1>
+            <!-- </a> -->
+        </div>
+        <ul id="menu-screen">
+            <li><a href="./index.html">home</a></li>
+            <li><a href="./pages/about-me.html">about me</a></li>
+        </ul>
+        <div id="menu-mobile">
+            <img src="./assets/menu-hamburger.svg" alt="menu-hamburger" id="menu-hamburger" class="menu-hamburger">
+            <img src="./assets/menu-strawberry.svg" alt="menu-strawberry" id="menu-strawberry" class="menu-strawberry">
+        </div>
+        <menu id="menu-mobile-list" class="menu-mobile-list div-header">
+            <ul>
+                <li><a href="./index.html">home</a></li>
+                <li><a href="./pages/about-me.html">about me</a></li>
+            </ul>
+        </menu>
+    </header>
+    <section class="hero-post" id="hero-post">
+        <a href="./pages/post.html">
+            <!-- index.js injection -->
+        </a>
+    </section>
+    <section class="article-listing" id="article-listing">
+        <!-- index.js injection -->
+        <button id="article-listing-more">View more</button>
+
+        <div class="chatbox-bg">
+            <img src="./assets/message.svg" class="chatbox-img" alt="chatbox">
+        </div>
+    </section>
+    <footer>
+        <h1>My Yoga Journal</h1>
+        <h3>Copyright ©<span id="copyright-year"></span></h3>
+    </footer>
+    <script src="./js/index.js" type="module"></script>
+</body>
+
+</html>
